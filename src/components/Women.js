@@ -1,5 +1,5 @@
 import React from "react";
-import {Switch, Route, useRouteMatch } from "react-router-dom";
+import { Switch, Route, useRouteMatch } from "react-router-dom";
 
 import Jewellery from "../pages/Jewellery";
 import Trouser from "../pages/Trouser";
@@ -13,8 +13,7 @@ const Women = () => {
   return (
     <div>
       <p>Womens Items:</p>
-      <Layout url={url}/>
-      
+      <Layout url={url} />
 
       <Switch>
         <Route path={`${path}/grooming`} component={Grooming} />
