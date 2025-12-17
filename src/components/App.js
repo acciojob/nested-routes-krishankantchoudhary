@@ -8,8 +8,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/Women">Women</Link>
+        <Link to="/">Home</Link><Link to="/Women">Women</Link>
       </nav>
       <Switch>
         <Route exact path="/" component={Home} />
