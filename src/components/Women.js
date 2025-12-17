@@ -16,10 +16,10 @@ const Women = () => {
       <Layout url={url} />
 
       <Switch>
-        <Route path={`${path}/grooming`} component={Grooming} />
-        <Route path={`${path}/shirt`} component={Shirt} />
-        <Route path={`${path}/trouser`} component={Trouser} />
-        <Route path={`${path}/jewellery`} component={Jewellery} />
+        <Route path={`${path}/Grooming`} component={Grooming} />
+        <Route path={`${path}/Shirt`} component={Shirt} />
+        <Route path={`${path}/Trouser`} component={Trouser} />
+        <Route path={`${path}/Jewellery`} component={Jewellery} />
       </Switch>
     </div>
   );

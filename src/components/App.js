@@ -9,14 +9,22 @@ const App = () => {
     <BrowserRouter>
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/Women">Women</Link></li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/women">Women</Link>
+          </li>
         </ul>
-        </nav>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/Women" component={Women} />
-      </Switch>
+      </nav>
+      <main>
+        <div>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/women" component={Women} />
+          </Switch>
+        </div>
+      </main>
     </BrowserRouter>
   );
 };
