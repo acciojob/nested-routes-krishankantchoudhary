@@ -3,7 +3,7 @@ import React from "react";
 const Grooming=()=>{
     return(
         <div>
-            Grooming
+            <p>Grooming</p>
         </div>
     )
 }

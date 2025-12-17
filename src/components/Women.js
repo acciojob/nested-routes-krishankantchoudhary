@@ -1,10 +1,11 @@
 import React from "react";
-import { Link, Switch, Route, useRouteMatch } from "react-router-dom";
+import {Switch, Route, useRouteMatch } from "react-router-dom";
 
 import Jewellery from "../pages/Jewellery";
 import Trouser from "../pages/Trouser";
 import Shirt from "../pages/Shirt";
 import Grooming from "../pages/Grooming";
+import Layout from "../pages/Layout";
 
 const Women = () => {
   const { path, url } = useRouteMatch();
@@ -12,13 +13,8 @@ const Women = () => {
   return (
     <div>
       <p>Womens Items:</p>
-
-      <nav>
-        <Link to={`${url}/grooming`}>Grooming</Link>{" "}
-        <Link to={`${url}/shirt`}>Shirt</Link>{" "}
-        <Link to={`${url}/trouser`}>Trouser</Link>{" "}
-        <Link to={`${url}/jewellery`}>Jewellery</Link>
-      </nav>
+      <Layout url={url}/>
+      
 
       <Switch>
         <Route path={`${path}/grooming`} component={Grooming} />

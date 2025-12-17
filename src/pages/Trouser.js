@@ -3,7 +3,7 @@ import React from "react";
 const Trouser=()=>{
     return(
         <div>
-            Trouser
+            <p>Trouser</p>
         </div>
     )
 }
