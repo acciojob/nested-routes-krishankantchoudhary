@@ -8,8 +8,11 @@ const App = () => {
   return (
     <BrowserRouter>
       <nav>
-        <Link to="/">Home</Link><Link to="/Women">Women</Link>
-      </nav>
+        <ul>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/Women">Women</Link></li>
+        </ul>
+        </nav>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/Women" component={Women} />
