@@ -7,9 +7,9 @@ const Layout = ({ url }) => {
     <div>
       <nav>
         
-            <Link to={`${url}/grooming`}>Grooming</Link>{" "}
-            <Link to={`${url}/shirt`}>Shirt</Link>{" "}
-            <Link to={`${url}/trouser`}>Trouser</Link>{" "}
+            <Link to={`${url}/grooming`}>Grooming</Link>
+            <Link to={`${url}/shirt`}>Shirt</Link>
+            <Link to={`${url}/trouser`}>Trouser</Link>
             <Link to={`${url}/jewellery`}>Jewellery</Link>
         
       </nav>
